@@ -218,7 +218,7 @@ void print_board(){
     // printf("\n");
 
     //print upper border
-    printf("%5c", ' ');
+    printf("%c", ' ');
     for(c = 0; c < COLS; c++){
         printf("%c%c%c",HORIZONTAL_BORDER,HORIZONTAL_BORDER, HORIZONTAL_BORDER);
     }
@@ -236,7 +236,7 @@ void print_board(){
     }
 
     //print lower border
-    printf("%5c", ' ');
+    printf("%c", ' ');
     for(c = 0; c < COLS; c++){
         printf("%c%c%c",HORIZONTAL_BORDER, HORIZONTAL_BORDER, HORIZONTAL_BORDER);
     }
